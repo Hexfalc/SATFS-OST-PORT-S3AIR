@@ -15,21 +15,39 @@ This is an audio script mod that tries to port the ost from the fangame Sonic an
 # -Full List of the tracks replaced-
 
 -Title Screen
+
 -Data Select = Menu Theme (plays only in data select through)
+
 -Special Stage
+
 -Competiton = Gallery Theme
+
 -Ending Theme (For Hi it includes both the bad and true ones)
+
 -Credits Theme
+
 -Jingles (replaces most of them, extra life is replaced with the unlock sound, not like the original where the unused life monitor would just play the ring sound)
+
 -Knuckles Boss theme in HPZ = Miniboss Theme (originally I replaced the whole knuckles theme)
+
 -Miniboss
+
 -AIZ = Sapphire Shights 
+
 -AIZ Major Boss = Sapphire Shights Act 2 Boss
+
 -HCZ = Bubble Blossom
+
 -HCZ Major Boss = Bubble Blossom Act 2 Boss
+
 -MGZ = Gusty Greenhouse 
+
 -MGZ Major Boss = Metal Sonic Act 2 Boss
+
 -CNZ = Disocunt Districts
+
 -CNZ Major Boss = Sapphire Shights Act 2 Boss
+
 -ICZ = Frozen Fountain
+
 -ICZ Major Boss =

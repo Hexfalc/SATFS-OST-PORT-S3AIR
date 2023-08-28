@@ -74,6 +74,10 @@ This is an audio script mod that tries to port the ost from the fangame Sonic an
 
 -DDZ = Star Sanctuary (Mecha Sonic 2° and 3° phase plays this song too)
 
+## Download
+
+Grab a release from the releases tab or just download the repo 
+
 ## Changes from v2.0 
 -Cleaned the whole code using constant arrays (thanks ShadowXeldron for the tutorial on how to use them)
 

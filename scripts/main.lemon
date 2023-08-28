@@ -1,0 +1,12 @@
+//SATFS OST, a mod that ports the ost from the fangame Soiic and The Fallen Star to Sonic 3 AIR. 
+//This mod was made by HexFalc. See the mod page or the mod options for the full credits.
+//
+//This is the main.lemon of the mod. This script is only here to load the other two lemon scripts.
+//The actual code of the mod is divided in two lemon scripts: 
+//---> variables.lemon - this lemon scripts contains the variables used by the options of the mod.
+//---> music.lemon - this lemon scripts contains the code for the songs to play.
+//
+//This below loads the other two lemon scripts.
+//
+include variables 
+include music 

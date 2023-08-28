@@ -1,0 +1,652 @@
+//This first part of the code uses constant arrays to make the code a bit cleaner 
+//thanks ShadowXeldron for the tutorial on how to use them
+
+//titlescreen
+constant array<string> SATFS_TITLE =
+{
+    "satfshollietitlescreen",
+    "satfshititlescreen",
+    "satfshollietitlescreensoundcloud"
+}
+
+//menu/data select 
+constant array<string> SATFS_MENU =
+{
+    "satfsholliemenu",
+    "satfshimenu"
+}
+
+//specialstage
+constant array<string> SATFS_SPECIAL =
+{
+    "satfsholliespecialstage",
+    "satfshispecialstage",
+    "satfsholliespecialstagedvd2020"
+}
+
+//competition
+constant array<string> SATFS_GALLERY =
+{
+   "satfsholliegallery",
+   "satfshigallery"
+}
+
+//ending
+constant array<string> SATFS_ENDING =
+{
+   "satfshollieending",
+   "satfshiending"
+}
+
+//credits
+constant array<string> SATFS_CREDITS =
+{
+   "satfsholliecredits",
+   "satfshicredits"
+}
+
+//miniboss + knuckles theme
+constant array<string> SATFS_MINIBOSS =
+{
+   "satfshollieminiboss",
+   "satfshiminiboss"
+}
+
+//aiz2 majorboss
+constant array<string> SATFS_SSBOSS2_AIZ =
+{
+  "satfsholliesapsightsboss2",
+  "satfshisapsightsboss2"
+}
+
+//hcz2 majorboss
+constant array<string> SATFS_BBBOSS2_HCZ =
+{
+   "satfsholliebublossboss2",
+   "satfshibublossboss2"
+}
+
+//mgz2 majorboss
+constant array<string> SATFS_GGBOSS2_MGZ =
+{
+    "satfsholliegustgreenboss2",
+    "satfshigustgreenboss2"
+}
+
+//cnz2 majorboss
+constant array<string> SATFS_DDBOSS2_CNZ =
+{
+    "satfsholliesapsightsboss2",
+    "satfshidisdistrboss2"
+}
+
+//icz2 majorboss
+constant array<string> SATFS_FFBOSS2_ICZ =
+{
+   "satfsholliebublossboss2",
+   "satfshifrozfounboss2"
+}
+
+//lbz2 majorboss (not big-arms)
+constant array<string> SATFS_TTBOSS2_LBZ_1 =
+{
+   "satfsholliesapsightsboss2",
+   "satfshisapsightsboss2"
+}
+
+//lbz2 bigarms
+constant array<string> SATFS_TTBOSS2_LBZ_2 =
+{
+   "satfshollietroptrboss2",
+   "satfshitroptrboss2"
+}
+
+//mhz2 majorboss
+constant array<string> SATFS_RRBOSS2_MHZ =
+{
+   "satfsholliesapsightsboss2",
+   "satfshiraspriboss2"
+}
+
+//lrz2 majorboss
+constant array<string> SATFS_CCBOSS2_LRZ =
+{ 
+    "satfsholliebublossboss2",
+    "satfshicarcraboss2"
+}
+
+//dez2 majorboss
+constant array<string> SATFS_TUNTBOSS2_DEZ =
+{
+   "satfsholliesapsightsboss2",
+   "satfshisapsightsboss2"
+}
+
+//dez2 final boss
+constant array<string> SATFS_FINALBOSS =
+{
+   "satfsholliefinalboss",
+   "satfshifinalboss",
+}
+
+//ddz
+constant array<string> SATFS_TFINALBOSS =
+{
+   "satfshollietruefinalboss",
+   "satfshitruefinalboss",
+   "satfshollietruefinalbossloneorch",
+}
+
+//aiz1
+constant array<string> SATFS_SS1 =
+{
+    "satfsholliesapphsights1",
+    "satfshisapphsights1",
+}
+
+//aiz2
+constant array<string> SATFS_SS2 =
+{
+    "satfsholliesapphsights2",
+    "satfshisapphsights2",
+}
+
+//hcz1
+constant array<string> SATFS_BB1 =
+{
+    "satfsholliebubblebloss1",
+    "satfshibubblebloss1",
+}
+
+//hcz2
+constant array<string> SATFS_BB2 =
+{
+    "satfsholliebubblebloss2",
+    "satfshibubblebloss2",
+    "satfsholliebubblebloss2unused",
+}
+
+//mgz1
+constant array<string> SATFS_GG1 =
+{
+    "satfsholliegustgreenhouse1",
+    "satfshigustgreenhouse1",
+}
+
+//mgz2
+constant array<string> SATFS_GG2 =
+{
+    "satfsholliegustgreenhouse2",
+    "satfshigustgreenhouse2",
+    "satfsholliegustgreenhouse2unused",
+    "satfsholliegustgreenhouse2bbb",
+    "satfsholliegustgreenhouse2soundcloud",
+}
+
+//cnz1
+constant array<string> SATFS_DD1 =
+{
+    "satfsholliediscdistricts1",
+    "satfshidiscdistricts1",
+    "satfsholliediscdistricts1soundcloud",
+}
+
+//cnz2
+constant array<string> SATFS_DD2 =
+{
+    "satfsholliediscdistricts2",
+    "satfshidiscdistricts2",
+    "satfsholliediscdistricts2soundcloud",
+}
+
+//icz1
+constant array<string> SATFS_FF1 =
+{
+    "satfsholliefrozfountain1",
+    "satfshifrozfountain1",
+    "satfsholliefrozfountain1soundcloud",
+}
+
+//icz2
+constant array<string> SATFS_FF2 =
+{
+    "satfsholliefrozfountain2",
+    "satfshifrozfountain2",
+    "satfsholliefrozfountain2soundcloud",
+}
+
+//lbz1
+constant array<string> SATFS_TT1 =
+{
+    "satfshollietroptracks1",
+    "satfshitroptracks1",
+    "satfshollietroptracks1fmmakeover",
+}
+
+//lbz2
+constant array<string> SATFS_TT2 =
+{
+   "satfshollietroptracks2",
+   "satfshitroptracks2", 
+}
+
+//mhz1
+constant array<string> SATFS_RR1 =
+{
+    "satfshollieraspriver1",
+    "satfshiraspriver1",
+    "satfshollieraspriver1midi2019",
+}
+
+//mhz2
+constant array<string> SATFS_RR2 =
+{
+    "satfshollieraspriver2",
+    "satfshiraspriver2",
+}
+
+///lrz1
+constant array<string> SATFS_CC1 =
+{
+    "satfsholliecarcrater1",
+    "satfshicarcrater1",
+}
+
+//lrz2
+constant array<string> SATFS_CC2 =
+{
+    "satfsholliecarcrater2",
+    "satfshicarcrater2",
+}
+
+//dez1
+constant array<string> SATFS_TUNT1 =
+{
+    "satfshollietunturbine1",
+    "satfshitunturbine1",
+    "satfshollietunturbine1earlyalt",
+}
+
+//dez2
+constant array<string> SATFS_TUNT2 =
+{
+    "satfshollietunturbine2",
+    "satfshitunturbine2",
+}
+
+//actclear
+constant array<string> SATFS_ACTCLEAR =
+{
+    "satfshollieactclear",
+    "satfshiactclear",
+}
+
+//invincibility
+constant array<string> SATFS_INV =
+{
+    "satfshollieinvincibility",
+    "satfshiinvincibility",
+}
+
+//drowning
+constant array<string> SATFS_DROWNING =
+{
+    "satfsholliedrowning",
+    "satfshidrowning",
+}
+
+//extralife
+constant array<string> SATFS_EXTRALIFE =
+{
+    "satfshollieextralife",
+}
+
+//emeraldget
+constant array<string> SATFS_EMERALDGET =
+{
+    "satfshollieemeraldget",
+}
+
+//speedshoes
+constant array<string> SAFTS_SPEEDSHOES =
+{
+    "satfsholliespeedshoes",
+    "satfshispeedshoes",
+}
+
+//This part of the code it the one that makes the songs play
+function u64 Standalone.getModdedSoundKey(u64 soundKey, u8 sfxId, u8 soundRegType)
+{
+   //titlescreen
+    if (sfxId == 0x25)
+    {
+            return SATFS_TITLE[satfstitlescreenost]
+    }
+   
+   //dataselect/menu
+    if (sfxId == 0x2f)
+    {
+            return SATFS_MENU[satfsmenuost]
+    }
+    
+    //specialstage
+    if (sfxId == 0x1c)
+    {
+           return SATFS_SPECIAL[satfsspecialstageost]
+    }
+    
+    //competition
+    if (sfxId == 0x2d)
+    {
+            return SATFS_GALLERY[satfsgalleryost]
+    }
+    
+    //ending
+    if (sfxId == 0x26)
+    {
+            return SATFS_ENDING[satfsendingost]
+            
+      if (SATFS_ENDING[1])
+      {
+        if (global.chaos_emeralds < 7)
+        {
+            return "satfshibadending"       
+        }
+        
+        else if (global.chaos_emeralds == 7)
+        {
+            return "satfshitrueending"       
+        }
+      }
+    }
+    
+    //credits
+    if (sfxId == 0xdc)
+    {
+            return SATFS_CREDITS[satfscreditsost]
+    }
+    
+    //hpz knux boss music
+    if (sfxId == MUSIC_KNUCKLES_FORCED_S3) && (global.zone_act == 0x1601) || (sfxId == MUSIC_KNUCKLES_FORCED_SK) && (global.zone_act == 0x1601) || (sfxId == MUSIC_KNUCKLES_FORCED_PROTO) && (global.zone_act == 0x1601)
+    {
+            return SATFS_MINIBOSS[satfshpzknuxost]
+    } 
+    
+    
+    //miniboss + hpz miniboss music
+    if (sfxId == 0x18) || (sfxId == 0x2e) || (sfxId == MUSIC_MINIBOSS_FORCED_S3) && (global.zone_act == 0x1601) || (sfxId == MUSIC_MINIBOSS_FORCED_SK) && (global.zone_act == 0x1601)
+    {
+            return SATFS_MINIBOSS[satfsminibossost]
+    }
+    
+    //major bosses
+    
+    if (sfxId == 0x19)
+    {
+    //aiz2
+     if (global.zone_act == 0x0001)
+     {
+            return SATFS_SSBOSS2_AIZ[satfssapphsights2bossost]
+     }
+    //hcz2
+     if (global.zone_act == 0x0101)
+     {
+            return SATFS_BBBOSS2_HCZ[satfsbubblebloss2bossost]
+     }
+     //mgz2
+     if (global.zone_act == 0x0201)
+     {
+            return SATFS_GGBOSS2_MGZ[satfsgustgreenhouse2bossost]
+     }
+     //cnz2
+     if (global.zone_act == 0x0301)
+     {
+            return SATFS_DDBOSS2_CNZ[satfsdiscdistricts2bossost]
+     }
+     //icz2
+     if (global.zone_act == 0x0501)
+     {
+            return SATFS_FFBOSS2_ICZ[satfsfrozfountain2bossost]
+     }
+     //lbz2
+     if (global.zone_act == 0x0601)
+     {
+            return SATFS_TTBOSS2_LBZ_1[satfstroptracks2bossost]
+     }
+     //mhz2
+     if (global.zone_act == 0x0701)
+     {
+            return SATFS_RRBOSS2_MHZ[satfsraspriver2bossost]
+     }
+     //lrz2
+     if (global.zone_act == 0x0901) || (global.zone_act == 0x1600)
+     {
+            return SATFS_CCBOSS2_LRZ[satfscarcrater2bossost]
+     }
+    
+    //dez2
+    if (global.zone_act == 0x0b01)
+     {
+            return SATFS_TUNTBOSS2_DEZ[satfstunturbine2bossost]
+    }
+    
+    }
+    
+    //final boss
+    if (sfxId == 0x30)
+    {
+    //big arms
+    if (global.zone_act == 0x0601)
+     {
+         return SATFS_TTBOSS2_LBZ_2[satfstroptracks2bossost]
+     }
+     else
+     //death egg robo
+     {
+            return SATFS_FINALBOSS[satfstunturbine2finalbossost]
+      } 
+     }
+     
+     //ddz
+    if (sfxId == 0x1a)
+    {
+            return SATFS_TFINALBOSS[satfsstarsancttruefinalbossost]
+    } 
+    
+    //aiz1
+    if (sfxId == 0x01)
+    {
+            return SATFS_SS1[satfssapphsights1ost]
+    }
+
+    //aiz2
+    if (sfxId == 0x02)
+    {
+            return SATFS_SS2[satfssapphsights2ost]
+    }
+    
+    //hcz1
+    if (sfxId == 0x03)
+    {
+            return SATFS_BB1[satfsbubblebloss1ost]
+    }
+    
+    //hcz2
+    if (sfxId == 0x04)
+    {
+            return SATFS_BB2[satfsbubblebloss2ost]
+    }
+    
+    //mgz1
+    if (sfxId == 0x05)
+    {
+            return SATFS_GG1[satfsgustgreenhouse1ost]
+    }
+    
+    //mgz2
+    if (sfxId == 0x06)
+    {
+            return SATFS_GG2[satfsgustgreenhouse2ost]
+    }
+    
+    //cnz1
+    if (sfxId == 0x07)
+    {
+            return SATFS_DD1[satfsdiscdistricts1ost]
+    }
+    
+    //cnz2
+    if (sfxId == 0x08)
+    {
+            return SATFS_DD2[satfsdiscdistricts2ost]
+    }
+    
+    //icz1
+    if (sfxId == 0x0b)
+    {
+            return SATFS_FF1[satfsfrozfountain1ost]
+    }
+    
+    //icz2
+    if (sfxId == 0x0c)
+    {
+            return SATFS_FF2[satfsfrozfountain2ost]
+    }
+    
+    //lbz1
+    if (sfxId == 0x0d)
+    {
+            return SATFS_TT1[satfstroptracks1ost]
+    }
+    
+    //lbz2
+    if (sfxId == 0x0e)
+    {
+            return SATFS_TT2[satfstroptracks2ost]
+    }
+    
+    //mhz1
+    if (sfxId == 0x0f)
+    {
+            return SATFS_RR1[satfsraspriver1ost]
+    }
+    
+    //mhz2
+    if (sfxId == 0x10)
+    {
+            return SATFS_RR2[satfsraspriver2ost]
+    }
+    
+    //lrz1
+    if (sfxId == 0x13)
+    {
+            return SATFS_CC1[satfscarcrater1ost]
+    }
+    
+    //lrz2
+    if (sfxId == 0x14)
+    {
+            return SATFS_CC2[satfscarcrater2ost]
+    }
+    
+    //dez1
+    if (sfxId == 0x16)
+    {
+            return SATFS_TUNT1[satfstunturbine1ost]
+    }
+    
+    //dez2
+    if (sfxId == 0x17)
+    {
+    //makes dez 2 music fadeout in dez 2 boss act
+      if (global.zone_act == 0x1700)
+          {
+            return 0xe1
+          }
+   
+   //this instead make the music play in dez2 and level select
+     else
+     {
+            return SATFS_TUNT2[satfstunturbine2ost]
+      }
+    }
+    
+    //actclear
+    if (sfxId == 0x29)
+    {
+            return SATFS_ACTCLEAR[satfsjinglesost]
+    }
+    
+    //invincibility
+    if (sfxId == 0x2c)
+    {
+            return SATFS_INV[satfsjinglesost]
+    }
+    
+    //drowning
+    if (sfxId == 0x31)
+    {
+            return SATFS_DROWNING[satfsjinglesost]
+    }
+    
+    //extralife
+    if (sfxId == 0x2a)
+    {
+            return SATFS_EXTRALIFE[0]
+    }
+    
+    //emeraldget
+    if (sfxId == 0x2b)
+    {
+            return SATFS_EMERALDGET[0]
+    }
+    
+    else
+    {
+    return base.Standalone.getModdedSoundKey(soundKey, sfxId, soundRegType)
+    }
+}
+
+//The code below is for the speedshoes music, taken from LaveSlime's Dedicated Speed Shoes Music mod with permission.
+//I just edited the code to load the corrispective option tracks, so the rest of the code is unchanged.
+
+//# address-hook(0x01d90a) end(0x01d94e)
+function void ItemEffect.ApplySpeedUp()
+{
+	base.ItemEffect.ApplySpeedUp()
+	Audio.playAudio(SAFTS_SPEEDSHOES[satfsjinglesost], AudioContext.CONTEXT_MUSIC)
+}
+
+function void changeMusicTempo(u8 value)
+{
+	if (value == 0 || super.active || super.active.tails)
+	{
+		base.changeMusicTempo(value)
+		return
+	}
+}
+
+function void Character.updateBonusEffects()
+{
+	bool hadSpeedshoes = (char.bonus_effect & char.bonus.SPEED_UP)
+	base.Character.updateBonusEffects()
+	if ((hadSpeedshoes) && ((char.bonus_effect & char.bonus.SPEED_UP) == 0))
+	{
+		chooseFittingMusic()
+	}
+}
+
+//This is used to force infinite lives and super theme to normal level music by the associated option
+function u32 Game.getSetting(u32 settingId)
+{
+    if(satfsforcestuff == 1)
+    {
+        if (settingId == SETTING_AUDIO_SUPER_THEME)
+           return 0
+            
+        if (settingId == SETTING_INFINITE_LIVES)
+            return 1
+    }
+    return base.Game.getSetting(settingId)
+}
+

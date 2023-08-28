@@ -1,8 +1,8 @@
-## Sonic and the Fallen Star OST Port for Sonic 3 AIR
-# What is this is?
+# Sonic and the Fallen Star OST Port for Sonic 3 AIR
+## What is this is?
 This is an audio script mod that tries to port the ost from the fangame Sonic and The Fallen Star into the sonic 3 fan remaster Sonic 3 AIR
 
-# What does it contains?
+## What does it contains?
 
 •This mod contains both the official ost by Hollie (Including all the extras) and the alternate one by Hi.. You can switch between the two in the options of the mod just like the original fangame (The default one is the one by Hollie).
 
@@ -12,7 +12,7 @@ This is an audio script mod that tries to port the ost from the fangame Sonic an
 
 •Custom Speed Shoes music (Credits to LaveSlime for this, the code was taken from their Dedicated Speed Shoes Music mod with permission, i just edited it to use the option from this mod).
 
-# -Full List of the tracks replaced-
+### -Full List of the tracks replaced-
 
 -Title Screen
 

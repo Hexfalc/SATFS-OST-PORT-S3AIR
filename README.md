@@ -1,5 +1,5 @@
 # Sonic and the Fallen Star OST Port for Sonic 3 AIR
-## What is this is?
+## What is this mod?
 This is an audio script mod that tries to port the ost from the fangame Sonic and The Fallen Star into the sonic 3 fan remaster Sonic 3 AIR
 
 ## What does it contains?

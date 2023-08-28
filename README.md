@@ -14,16 +14,26 @@ This is an audio script mod that tries to port the ost from the fangame Sonic an
 
 ### -Full List of the tracks replaced-
 
--Title Screen /n
+-Title Screen 
+
 -Data Select = Menu Theme (plays only in data select through)
+
 -Special Stage
+
 -Competiton = Gallery Theme
+
 -Ending Theme (For Hi it includes both the bad and true ones)
+
 -Credits Theme
--Jingles (replaces most of them, extra life is replaced with the unlock sound, not like the original where the unused life monitor would just play the ring sound)
+
+-Jingles (replaces most of them, extra life is replaced with the unlock sound, unlike the original where the unused life monitor would just play the ring sound)
+
 -Knuckles Boss theme in HPZ = Miniboss Theme (originally I replaced the whole knuckles theme)
+
 -Miniboss
+
 -AIZ = Sapphire Shights 
+
 -AIZ Major Boss = Sapphire Shights Act 2 Boss
 
 -HCZ = Bubble Blossom
@@ -32,14 +42,48 @@ This is an audio script mod that tries to port the ost from the fangame Sonic an
 
 -MGZ = Gusty Greenhouse 
 
--MGZ Major Boss = Metal Sonic Act 2 Boss
+-MGZ Major Boss = Metal Sonic Act 2 Boss 
 
 -CNZ = Disocunt Districts
 
--CNZ Major Boss = Sapphire Shights Act 2 Boss
+-CNZ Major Boss = Sapphire Shights Act 2 Boss (Unique Boss Music For Hi.)
 
 -ICZ = Frozen Fountain
 
--ICZ Major Boss = Bubble Blossom Act 2 Boss
+-ICZ Major Boss = Bubble Blossom Act 2 Boss (Unique Boss Music for Hi.)
 
--
+-LBZ = Tropical Tracks 
+
+-LBZ 1° and 2° boss = Sapphire Shights Act 2 Boss
+
+-LBZ Big Arms = Tropical Tracks Act 2 Boss
+
+-MHZ = Raspberry River 
+
+-MHZ Major Boss = Sapphire Shights Act 2 Boss (Unique Boss Music for Hi.)
+
+-LRZ = Carnival Crater
+
+-LRZ Act 3 Boss = Bubble Blossom Act 2 Boss (Unique Boss Music for Hi.)
+
+-DEZ = Thunder Turbine
+
+-DEZ Act 2 Miniboss = Sapphire Shights Act 2 Boss
+
+-DEZ Final Boss = The Final Boss theme with a fadeout before thr start of the Battle
+
+-DDZ = Star Sanctuary (Mecha Sonic 2° and 3° phase plays this song too)
+
+## Changes from v2.0 
+-Cleaned the whole code using constant arrays (thanks ShadowXeldron for the tutorial on how to use them)
+
+-Added a fadeout before the final boss in dez2
+
+-Changed LBZ act 2 bosses music
+
+-Fixed more bugs (one in mhz act 2 specially)
+
+-Now knuckles modded theme plays only in hpz in the miniboss
+
+-Added an option to force Infinite Lives and swap super theme to the level music
+

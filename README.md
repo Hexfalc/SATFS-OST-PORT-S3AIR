@@ -106,7 +106,7 @@ This is an audio script mod that tries to port the ost from the fangame Sonic an
 
  ShadowXeldron - Made the Constant Arrays Tutorial 
 
- TinnerBunneh - Made the Advanced Audio Modding Tutorial 
+ TimerBunneh - Made the Advanced Audio Modding Tutorial 
 
  Eukaryot - Made Sonic 3 AIR
 

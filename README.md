@@ -87,3 +87,23 @@ This is an audio script mod that tries to port the ost from the fangame Sonic an
 
 -Added an option to force Infinite Lives and swap super theme to the level music
 
+-Removed lite version (sorry ios users)
+
+## Credits 
+ HexFalc - Made this mod. V3 Tester
+ 
+ Rookie and Kyokl_ - V1 and V2 Testers
+
+ LaveSlime - The Dedicared Speed Shoes Music Mod
+ 
+ StarDrop - Made Sonic And The Fallen Star
+
+ Hollie and Misty - Composers of the Official Ost
+ 
+ Hi. - Composer of the Alternate Ost 
+
+ Vgf88 - Script Helper for the fangame
+
+ TinnerBunneh - Made the Advanced Audio Modding Tutorial 
+
+ Eukaryot - Made Sonic 3 AIR

@@ -1,0 +1,633 @@
+{
+ "Metadata":
+ {
+ "Name": "SATFS OST",
+ "Author": "HexFalc, other credits below",
+ "Version":"3.0",
+ "UniqueID":"hexfalc-satfsostport",
+ "Description": "a mod that adds hollie taylor and hi's satfs osts with some extra stuff. Sonic and The Fallen Star was made by Stardrop, Ost by Hollie Taylor, Misty and Hi. Credit to Laveslime for the speed shoes music code.",
+  },
+ "Settings":
+ {
+ "List":
+  [
+   {
+    "InternalName": "SATFSOST_About",
+    "DisplayName": " ",
+    "Variable": "satfsostmodcredits",
+    "DefaultValue": "0",
+    "Category": "About",
+    "Options":
+       {
+       "0": "An audio script mod that ports the OST from Sonic And The Fallen Star               ////////////////",
+       }
+    },
+    {
+    "InternalName": "SATFSOST_Version",
+    "DisplayName": " ",
+    "Variable": "satfsostmodver",
+    "DefaultValue": "0",
+    "Category": "About",
+    "Options":
+       {
+       "0": "v3.0",
+       }
+    },
+    
+    {
+    "InternalName": "SATFSOST_Credits1",
+    "DisplayName": "HexFalc",
+    "Variable": "satfsostmodcredits",
+    "DefaultValue": "0",
+    "Category": "Credits",
+    "Options":
+       {
+       "0": "Ported the OST/Made the mod. V3 Tester",
+       }
+    },
+    
+    {
+    "InternalName": "SATFSOST_Credits2",
+    "DisplayName": "Rookie and Kyokl_ɠհ",
+    "Variable": "satfsostmodcredits",
+    "DefaultValue": "0",
+    "Category": "Credits",
+    "Options":
+       {
+       "0": "V1 and V2 Testers",
+       }
+    },
+    
+    {
+    "InternalName": "SATFSOST_Credits3",
+    "DisplayName": "LaveSlime",
+    "Variable": "satfsostmodcredits",
+    "DefaultValue": "0",
+    "Category": "Credits",
+    "Options":
+       {
+       "0": "The Dedicated Speed Shoes Music Mod",
+       }
+    },
+    
+    {
+    "InternalName": "SATFSOST_Credits4",
+    "DisplayName": "StarDrop",
+    "Variable": "satfsostmodcredits",
+    "DefaultValue": "0",
+    "Category": "Credits",
+    "Options":
+       {
+       "0": "Created Sonic And Fallen Star",
+       }
+    },
+    
+    {
+    "InternalName": "SATFSOST_Credits5",
+    "DisplayName": "Hollie Taylor, Misty and Hi.",
+    "Variable": "satfsostmodcredits",
+    "DefaultValue": "0",
+    "Category": "Credits",
+    "Options":
+       {
+       "0": "The OST from Sonic And The Fallen Star",
+       }
+    },
+    
+    {
+    "InternalName": "SATFSOST_Credits6",
+    "DisplayName": "Vgf88",
+    "Variable": "satfsostmodcredits",
+    "DefaultValue": "0",
+    "Category": "Credits",
+    "Options":
+       {
+       "0": "Script Helper for Sonic And Fallen Star",
+       }
+    },
+    
+    {
+    "InternalName": "SATFSOST_ForceOptions",
+    "DisplayName": " ",
+    "Variable": "satfsforcestuff",
+    "DefaultValue": "1",
+    "Category": "Sonic 3 AIR Options Override",
+    "Options":
+       {
+       "0": "No                                ",
+       "1":"Yes (Force Infinite Lives and Super Theme to Normal level music)                           /////////",
+       }
+    },
+    
+   {
+    "InternalName": "SATFS_TitleScreen",
+    "DisplayName": "Titlescreen",
+    "Variable": "satfstitlescreenost",
+    "DefaultValue": "0",
+    "Category": "OST Options",
+    "Options":
+       {
+       "0": "Hollie Taylor",
+       "1": "Hi.",
+       "2": "Hollie (SoundCloud Mix)"
+       }
+    },
+    
+    {
+    "InternalName": "SATFS_Menu",
+    "DisplayName": "Menu/Data Select",
+    "Variable": "satfsmenuost",
+    "DefaultValue": "0",
+    "Category": "OST Options",
+    "Options":
+       {
+       "0": "Hollie Taylor",
+       "1": "Hi."
+       }
+    },
+    
+    {
+    "InternalName": "SATFS_SpecialStage",
+    "DisplayName": "Special Stage",
+    "Variable": "satfsspecialstageost",
+    "DefaultValue": "0",
+    "Category": "OST Options",
+    "Options":
+       {
+       "0": "Hollie Taylor",
+       "1": "Hi.",
+       "2": "Hollie (DVD Mix - 2020)"
+       }
+    },
+    
+    {
+    "InternalName": "SATFS_Gallery",
+    "DisplayName": "Gallery (Competition)",
+    "Variable": "satfsgalleryost",
+    "DefaultValue": "0",
+    "Category": "OST Options",
+    "Options":
+       {
+       "0": "Hollie Taylor",
+       "1": "Hi."
+       }
+    },
+    
+    {
+    "InternalName": "SATFS_Ending",
+    "DisplayName": "Ending",
+    "Variable": "satfsendingost",
+    "DefaultValue": "0",
+    "Category": "OST Options",
+    "Options":
+       {
+       "0": "Hollie Taylor",
+       "1": "Hi."
+       }
+    },
+    
+    {
+    "InternalName": "SATFS_Credits",
+    "DisplayName": "Credits",
+    "Variable": "satfscreditsost",
+    "DefaultValue": "0",
+    "Category": "OST Options",
+    "Options":
+       {
+       "0": "Hollie Taylor",
+       "1": "Hi."
+       }
+    },
+    
+    {
+    "InternalName": "SATFS_Jingles",
+    "DisplayName": "Jingles",
+    "Variable": "satfsjinglesost",
+    "DefaultValue": "0",
+    "Category": "OST Options",
+    "Options":
+       {
+       "0": "Hollie Taylor",
+       "1": "Hi."
+       }
+    },
+    
+    {
+    "InternalName": "SATFS_HPZKnucklesBoss",
+    "DisplayName": "HPZ Knuckles Boss Theme",
+    "Variable": "satfshpzknuxost",
+    "DefaultValue": "0",
+    "Category": "OST Options",
+    "Options":
+       {
+       "0": "Hollie Taylor",
+       "1": "Hi."
+       }
+    },
+    
+    {
+    "InternalName": "SATFS_MiniBoss",
+    "DisplayName": "MiniBoss",
+    "Variable": "satfsminibossost",
+    "DefaultValue": "0",
+    "Category": "OST Options",
+    "Options":
+       {
+       "0": "Hollie Taylor",
+       "1": "Hi."
+       }
+    },
+    
+    {
+    "InternalName": "SATFS_SapphireSights1",
+    "DisplayName": "Sapphire Sights Act1 (AIZ)",
+    "Variable": "satfssapphsights1ost",
+    "DefaultValue": "0",
+    "Category": "OST Options",
+    "Options":
+       {
+       "0": "Hollie Taylor",
+       "1": "Hi."
+       }
+    },
+    
+    {
+    "InternalName": "SATFS_SapphireSights2",
+    "DisplayName": "Sapphire Sights Act2 (AIZ)",
+    "Variable": "satfssapphsights2ost",
+    "DefaultValue": "0",
+    "Category": "OST Options",
+    "Options":
+       {
+       "0": "Hollie Taylor",
+       "1": "Hi."
+       }
+    },
+    
+    {
+    "InternalName": "SATFS_SapphireSights2Boss",
+    "DisplayName": "S. Sights Act2 Boss (AIZ)",
+    "Variable": "satfssapphsights2bossost",
+    "DefaultValue": "0",
+    "Category": "OST Options",
+    "Options":
+       {
+       "0": "Hollie Taylor",
+       "1": "Hi."
+       }
+    },
+    
+    {
+    "InternalName": "SATFS_BubbleBlossom1",
+    "DisplayName": "Bubble Blossom Act1 (HCZ)",
+    "Variable": "satfsbubblebloss1ost",
+    "DefaultValue": "0",
+    "Category": "OST Options",
+    "Options":
+       {
+       "0": "Hollie Taylor",
+       "1": "Hi."
+       }
+    },
+    
+    {
+    "InternalName": "SATFS_BubbleBlossom2",
+    "DisplayName": "Bubble Blossom Act2 (HCZ)",
+    "Variable": "satfsbubblebloss2ost",
+    "DefaultValue": "0",
+    "Category": "OST Options",
+    "Options":
+       {
+       "0": "Hollie Taylor",
+       "1": "Hi.",
+       "2": "Hollie (Unused)"
+       }
+    },
+    
+    {
+    "InternalName": "SATFS_BubbleBlossom2Boss",
+    "DisplayName": "B. Blossom Act2 Boss (HCZ)",
+    "Variable": "satfsbubblebloss2bossost",
+    "DefaultValue": "0",
+    "Category": "OST Options",
+    "Options":
+       {
+       "0": "Hollie Taylor",
+       "1": "Hi."
+       }
+    },
+    
+    {
+    "InternalName": "SATFS_GustyGreenhouse1",
+    "DisplayName": "Gusty Greenhouse Act1 (MGZ)",
+    "Variable": "satfsgustgreenhouse1ost",
+    "DefaultValue": "0",
+    "Category": "OST Options",
+    "Options":
+       {
+       "0": "Hollie Taylor",
+       "1": "Hi."
+       }
+    },
+    
+    {
+    "InternalName": "SATFS_GustyGreenhouse2",
+    "DisplayName": "Gusty Greenhouse Act2 (MGZ)",
+    "Variable": "satfsgustgreenhouse2ost",
+    "DefaultValue": "0",
+    "Category": "OST Options",
+    "Options":
+       {
+       "0": "Hollie Taylor",
+       "1": "Hi.",
+       "2": "Hollie (Unused)",
+       "3": "Hollie ('BBB' Mix)",
+       "4": "Hollie (SoundCloud Mix)"
+       }
+    },
+    
+    {
+    "InternalName": "SATFS_GustyGreenhouse2Boss",
+    "DisplayName": "G. GHouse Act2 Boss (MGZ)",
+    "Variable": "satfsgustgreenhouse2bossost",
+    "DefaultValue": "0",
+    "Category": "OST Options",
+    "Options":
+       {
+       "0": "Hollie Taylor",
+       "1": "Hi."
+       }
+    },
+    
+    {
+    "InternalName": "SATFS_DiscountDistricts1",
+    "DisplayName": "Discount Districts Act1 (CNZ)",
+    "Variable": "satfsdiscdistricts1ost",
+    "DefaultValue": "0",
+    "Category": "OST Options",
+    "Options":
+       {
+       "0": "Hollie Taylor",
+       "1": "Hi.",
+       "2": "Hollie (SoundCloud Mix)"
+       }
+    },
+    
+    {
+    "InternalName": "SATFS_DiscountDistricts2",
+    "DisplayName": "Discount Districts Act2 (CNZ)",
+    "Variable": "satfsdiscdistricts2ost",
+    "DefaultValue": "0",
+    "Category": "OST Options",
+    "Options":
+       {
+       "0": "Hollie Taylor",
+       "1": "Hi.",
+       "2": "Hollie (SoundCloud Mix)"
+       }
+    },
+    
+    {
+    "InternalName": "SATFS_DiscountDistricts2Boss",
+    "DisplayName": "D. Districts Act2 Boss (CNZ)",
+    "Variable": "satfsdiscdistricts2bossost",
+    "DefaultValue": "0",
+    "Category": "OST Options",
+    "Options":
+       {
+       "0": "Hollie Taylor",
+       "1": "Hi."
+       }
+    },
+    
+    {
+    "InternalName": "SATFS_FrozenFountain1",
+    "DisplayName": "Frozen Fountain Act1 (ICZ)",
+    "Variable": "satfsfrozfountain1ost",
+    "DefaultValue": "0",
+    "Category": "OST Options",
+    "Options":
+       {
+       "0": "Hollie Taylor",
+       "1": "Hi.",
+       "2": "Hollie (SoundCloud Mix)"
+       }
+    },
+    
+    {
+    "InternalName": "SATFS_FrozenFountain2",
+    "DisplayName": "Frozen Fountain Act2 (ICZ)",
+    "Variable": "satfsfrozfountain2ost",
+    "DefaultValue": "0",
+    "Category": "OST Options",
+    "Options":
+       {
+       "0": "Hollie Taylor",
+       "1": "Hi.",
+       "2": "Hollie (SoundCloud Mix)"
+       }
+    },
+    
+    {
+    "InternalName": "SATFS_FrozenFountain2Boss",
+    "DisplayName": "F. Fountain Act2 Boss (ICZ)",
+    "Variable": "satfsfrozfountain2bossost",
+    "DefaultValue": "0",
+    "Category": "OST Options",
+    "Options":
+       {
+       "0": "Hollie Taylor",
+       "1": "Hi."
+       }
+    },
+    
+    {
+    "InternalName": "SATFS_TropicalTracks1",
+    "DisplayName": "Tropical Tracks Act1 (LBZ)",
+    "Variable": "satfstroptracks1ost",
+    "DefaultValue": "0",
+    "Category": "OST Options",
+    "Options":
+       {
+       "0": "Hollie Taylor",
+       "1": "Hi.",
+       "2": "Hollie ('FM Makeover' Mix)"
+       }
+    },
+    
+    {
+    "InternalName": "SATFS_TropicalTracks2",
+    "DisplayName": "Tropical Tracks Act2 (LBZ)",
+    "Variable": "satfstroptracks2ost",
+    "DefaultValue": "0",
+    "Category": "OST Options",
+    "Options":
+       {
+       "0": "Hollie Taylor",
+       "1": "Hi."
+       }
+    },
+    
+    {
+    "InternalName": "SATFS_TropicalTracks2Boss",
+    "DisplayName": "T. Tracks Act2 Boss (LBZ)",
+    "Variable": "satfstroptracks2bossost",
+    "DefaultValue": "0",
+    "Category": "OST Options",
+    "Options":
+       {
+       "0": "Hollie Taylor",
+       "1": "Hi."
+       }
+    },
+    
+    {
+    "InternalName": "SATFS_RaspberryRiver1",
+    "DisplayName": "Raspberry River Act1 (MHZ)",
+    "Variable": "satfsraspriver1ost",
+    "DefaultValue": "0",
+    "Category": "OST Options",
+    "Options":
+       {
+       "0": "Hollie Taylor",
+       "1": "Hi.",
+       "2": "Hollie (MIDI Demo - 2019)"
+       }
+    },
+    
+    {
+    "InternalName": "SATFS_RaspberryRiver2",
+    "DisplayName": "Raspberry River Act2 (MHZ)",
+    "Variable": "satfsraspriver2ost",
+    "DefaultValue": "0",
+    "Category": "OST Options",
+    "Options":
+       {
+       "0": "Hollie Taylor",
+       "1": "Hi."
+       }
+    },
+    
+    {
+    "InternalName": "SATFS_RaspberryRiver2Boss",
+    "DisplayName": "R. River Act2 Boss (MHZ)",
+    "Variable": "satfsraspriver2bossost",
+    "DefaultValue": "0",
+    "Category": "OST Options",
+    "Options":
+       {
+       "0": "Hollie Taylor",
+       "1": "Hi."
+       }
+    },
+    
+    {
+    "InternalName": "SATFS_CarnivalCrater1",
+    "DisplayName": "Carnival Crater Act1 (LRZ)",
+    "Variable": "satfscarcrater1ost",
+    "DefaultValue": "0",
+    "Category": "OST Options",
+    "Options":
+       {
+       "0": "Hollie Taylor",
+       "1": "Hi."
+       }
+    },
+    
+    {
+    "InternalName": "SATFS_CarnivalCrater2",
+    "DisplayName": "Carnival Crater Act2 (LRZ)",
+    "Variable": "satfscarcrater2ost",
+    "DefaultValue": "0",
+    "Category": "OST Options",
+    "Options":
+       {
+       "0": "Hollie Taylor",
+       "1": "Hi."
+       }
+    },
+    
+    {
+    "InternalName": "SATFS_CarnivalCrater2Boss",
+    "DisplayName": "C. Crater Act2 Boss (LRZ)",
+    "Variable": "satfscarcrater2bossost",
+    "DefaultValue": "0",
+    "Category": "OST Options",
+    "Options":
+       {
+       "0": "Hollie Taylor",
+       "1": "Hi."
+       }
+    },
+    
+    {
+    "InternalName": "SATFS_ThunderTurbine1",
+    "DisplayName": "Thunder Turbine Act1 (DEZ)",
+    "Variable": "satfstunturbine1ost",
+    "DefaultValue": "0",
+    "Category": "OST Options",
+    "Options":
+       {
+       "0": "Hollie Taylor",
+       "1": "Hi.",
+       "2": "Hollie (Early Alternate Mix)"
+       }
+    },
+    
+    {
+    "InternalName": "SATFS_ThunderTurbine2",
+    "DisplayName": "Thunder Turbine Act2 (DEZ)",
+    "Variable": "satfstunturbine2ost",
+    "DefaultValue": "0",
+    "Category": "OST Options",
+    "Options":
+       {
+       "0": "Hollie Taylor",
+       "1": "Hi."
+       }
+    },
+    
+    {
+    "InternalName": "SATFS_ThunderTurbine2Boss",
+    "DisplayName": "T. Turbine Act2 Boss (DEZ)",
+    "Variable": "satfstunturbine2bossost",
+    "DefaultValue": "0",
+    "Category": "OST Options",
+    "Options":
+       {
+       "0": "Hollie Taylor",
+       "1": "Hi."
+       }
+    },
+    
+    {
+    "InternalName": "SATFS_ThunderTurbine2FinalBoss",
+    "DisplayName": "T. T. Act2 Final Boss (DEZ)",
+    "Variable": "satfstunturbine2finalbossost",
+    "DefaultValue": "0",
+    "Category": "OST Options",
+    "Options":
+       {
+       "0": "Hollie Taylor",
+       "1": "Hi."
+       }
+    },
+    
+    {
+    "InternalName": "SATFS_StarSanctuary",
+    "DisplayName": "Star Sanctuary (DDZ)",
+    "Variable": "satfsstarsancttruefinalbossost",
+    "DefaultValue": "0",
+    "Category": "OST Options",
+    "Options":
+       {
+       "0": "Hollie Taylor",
+       "1": "Hi.",
+       "2": "Hollie (Lone Orchestra Mix)"
+       }
+    },
+    
+   ]
+   }
+}
+  

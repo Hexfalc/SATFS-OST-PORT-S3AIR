@@ -104,6 +104,10 @@ This is an audio script mod that tries to port the ost from the fangame Sonic an
 
  Vgf88 - Script Helper for the fangame
 
+ ShadowXeldron - Made the Constant Arrays Tutorial 
+
  TinnerBunneh - Made the Advanced Audio Modding Tutorial 
 
  Eukaryot - Made Sonic 3 AIR
+
+<b><i>I have no relation with the satfs team and they are free to ask me to take down this mod</i></b>

@@ -9,7 +9,6 @@ constant array<string> SATFS_SS1_INTRO =
 function void fn067472()
 {
 	Audio.playAudio(0xe1, AudioContext.CONTEXT_MUSIC)
-	Audio.playAudio(SATFS_SS1_INTRO[satfssapphsights1ostintro], AudioContext.CONTEXT_MUSIC)
 	call tableLookupAddress(0x067490, objA0.base_state)
 
 	UpdateSonicSpritePatterns()
@@ -20,7 +19,8 @@ function void fn067472()
 
 //# address-hook(0x0674ac) end(0x067512)
 function void fn0674ac()
-{
+{ 
+	Audio.playAudio(SATFS_SS1_INTRO[satfssapphsights1ostintro], AudioContext.CONTEXT_MUSIC)
 	objA0.base_state = 0x02
 	objA0.mapping_offset = 0x146620
 	objA0.sprite_attributes = (Char.Player1.targetInVRAM >> 5)

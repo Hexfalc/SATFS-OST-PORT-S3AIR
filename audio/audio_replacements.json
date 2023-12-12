@@ -17,7 +17,9 @@
 "satfsholliecredits": { "File":"Hollie/Credits.ogg", "Type": "Music"},
 "satfshicredits": { "File":"Hi/Credits.ogg", "Type": "Music"},
 
+"satfsholliesapphsightsintrosequence": { "File":"Hollie/AIZ Intro.ogg", "Type": "Music"},
 "satfsholliesapphsights1": { "File":"Hollie/Sapphire Sights1.ogg", "Type": "Music"},
+"satfshisapphsightsintrosequence": { "File":"Hi/AIZ Intro.ogg", "Type": "Music"},
 "satfshisapphsights1": { "File":"Hi/Sapphire Sights1.ogg", "Type": "Music"},
 "satfsholliesapphsights2": { "File":"Hollie/Sapphire Sights2.ogg", "Type": "Music"},
 "satfshisapphsights2": { "File":"Hi/Sapphire Sights2.ogg", "Type": "Music"},

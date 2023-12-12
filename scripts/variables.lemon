@@ -6,6 +6,7 @@ global u8 satfsgalleryost
 global u8 satfsspecialstageost
 global u8 satfsendingost
 global u8 satfscreditsost
+global u8 satfssapphsights1ostintro
 global u8 satfssapphsights1ost
 global u8 satfssapphsights2ost
 global u8 satfssapphsights2bossost

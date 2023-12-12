@@ -1,0 +1,48 @@
+//aiz1
+constant array<string> SATFS_SS1_INTRO =
+{
+    "satfsholliesapphsightsintrosequence",
+    "satfshisapphsightsintrosequence",
+}
+
+//# address-hook(0x067472) end(0x06748a)
+function void fn067472()
+{
+	Audio.playAudio(0xe1, AudioContext.CONTEXT_MUSIC)
+	Audio.playAudio(SATFS_SS1_INTRO[satfssapphsights1ostintro], AudioContext.CONTEXT_MUSIC)
+	call tableLookupAddress(0x067490, objA0.base_state)
+
+	UpdateSonicSpritePatterns()
+	fn067a08()
+	DrawObject()
+}
+
+
+//# address-hook(0x0674ac) end(0x067512)
+function void fn0674ac()
+{
+	objA0.base_state = 0x02
+	objA0.mapping_offset = 0x146620
+	objA0.sprite_attributes = (Char.Player1.targetInVRAM >> 5)
+	objA0.sprite_priority = 0x0280
+	objA0.animation.sprite = 0xba
+	objA0.box_size.x = 0x40
+	objA0.box_size.y = 0x20
+	objA0.position.x.u16 = 0x60 + getScreenExtend()
+	objA0.position.y.u16 = 0x30
+	objA0.countdown_value = 0x40
+	objA0.countdown_callback = 0x06751a
+	u16[A0 + 0x40] = 0x08
+
+	u16[0xffffeeb6] = 0xe918 - getScreenExtend() * 3
+	char.animation.sprite.backup = 0xff
+
+	A1 = 0xffffb000
+	u8[A1 + 0x22] = 0	
+	u8[A1 + 0x2e] = 0x53
+
+#if STANDALONE
+	objA1.position.x.u16 = getScreenWidth() / 2
+	Game.startSkippableCutscene()
+#endif
+}

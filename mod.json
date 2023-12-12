@@ -237,6 +237,19 @@
        "1": "Hi."
        }
     },
+
+    {
+    "InternalName": "SATFS_SapphireSights1_Intro",
+    "DisplayName": "Sapphire Sights Act1 Intro (AIZ)",
+    "Variable": "satfssapphsights1ostintro",
+    "DefaultValue": "0",
+    "Category": "OST Options",
+    "Options":
+       {
+       "0": "Hollie Taylor",
+       "1": "Hi."
+       }
+    },
     
     {
     "InternalName": "SATFS_SapphireSights1",

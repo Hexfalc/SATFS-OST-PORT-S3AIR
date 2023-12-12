@@ -76,22 +76,7 @@ This is an audio script mod that tries to port the ost from the fangame Sonic an
 
 ## Download
 
-Grab a release from the [releases tab](https://github.com/Hexfalc/SATFS-OST-PORT-S3AIR/releases) or just download the repo 
-
-## Changes from v2.0 
--Cleaned the whole code using constant arrays (thanks ShadowXeldron for the tutorial on how to use them)
-
--Added a fadeout before the final boss in dez2
-
--Changed LBZ act 2 bosses music
-
--Fixed more bugs (one in mhz act 2 specially)
-
--Now knuckles modded theme plays only in hpz in the miniboss
-
--Added an option to force Infinite Lives and swap super theme to the level music
-
--Removed lite version (sorry ios users)
+Grab a release from the [releases tab](https://github.com/Hexfalc/SATFS-OST-PORT-S3AIR/releases) or download (or clone) the repo if you want a more unstable version with the latest changes (i don't recommend it if you want to simply play the mod) 
 
 ## Credits 
  HexFalc - Made this mod. V3 Tester

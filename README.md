@@ -12,7 +12,7 @@ This is an audio script mod that attemps to port the OST from the fangame Sonic 
 - Custom Speed Shoes Music (All credits goes to LaveSlime for the original code from their "Dedicated Speed Shoes Music" mod, all I did was edit it to make it work with the options of this mod. Obviously i asked for permission before using it in the mod, even if it was free to use, proof [here](https://raw.githubusercontent.com/Hexfalc/SATFS-OST-PORT-S3AIR/main/images/Screenshot_2023-03-30-21-37-00-50_40deb401b9ffe8e1df2f1cc5ba480b12.jpg))
  
 
-• Also, if you want a more SATFS-like experience, I added an option to force Infinite Lives and Swap the Super/Hyper Theme option to Level Music (This is activated by default).
+• Also, if you want a more SATFS-like experience, I added an option to force Infinite Lives and Swap the Super/Hyper Theme option to Level Music (This is enabled by default).
 
 
 ## Download
